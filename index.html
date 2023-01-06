@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axorax Portfolio</title>
+    <link rel="shortcut icon" href="wp-content/images/axorax.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <a href="#index-intro-contact-btn" id="skip-nav">Skip Navigation</a>
+
+    <nav>
+      <img src="wp-content/images/axorax.png" alt="Axorax" />
+      <p>Axorax</p>
+      <ul id="nav-pc">
+        <li><a href="index.html" id="nav-active">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.patreon.com/axorax"
+            id="nav-donate"
+            >Donate</a
+          >
+        </li>
+      </ul>
+      <ul id="nav-mobile">
+        <li id="nav-menu-li">
+          <button id="nav-menu">
+            <img
+              src="wp-content/images/menu.svg"
+              alt="menu"
+              id="nav-menu-img"
+            />
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="nav-mobile-content-close">
+      <ul>
+        <li><a href="index.html" id="nav-active">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.patreon.com/axorax"
+            id="nav-donate-mobile"
+            >Donate</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <a href="#" class="scrollTop"
+      ><img src="wp-content/images/top.svg" alt="Top"
+    /></a>
+
+    <div id="index-content">
+      <div class="index-intro">
+        <h1>Hi, I'm <span>Axorax</span></h1>
+        <h2>Hobbyist Programmer</h2>
+        <h3>
+          Making websites for more than 1 year and trying to learn new things
+          constantly.
+        </h3>
+        <a href="#contact"
+          ><button id="index-intro-contact-btn">Contact</button></a
+        >
+      </div>
+      <div class="index-socials">
+        <a href="#"><img src="wp-content/images/github.svg" alt="Github" /></a>
+        <a href="#"
+          ><img src="wp-content/images/youtube.svg" alt="Youtube"
+        /></a>
+        <a href="#"><img src="wp-content/images/replit.svg" alt="Replit" /></a>
+      </div>
+    </div>
+
+    <div id="skills"></div>
+    <div class="skills">
+      <div class="skills-item">
+        <img src="wp-content/images/html.png" alt="HTML" />
+        <p>HTML</p>
+      </div>
+      <div class="skills-item">
+        <img src="wp-content/images/css.png" alt="CSS" />
+        <p>CSS</p>
+      </div>
+      <div class="skills-item">
+        <img src="wp-content/images/js.png" alt="JavaScript" />
+        <p>JavaScript</p>
+      </div>
+      <div class="skills-item">
+        <img src="wp-content/images/py.png" alt="Python" />
+        <p>Python</p>
+      </div>
+    </div>
+
+    <div id="contact"></div>
+    <div class="contact">
+      <div class="contact-sidepanel">
+        <div class="contact-socials">
+          <p>Contact</p>
+          <span>Send me a message via email or contact me via socials</span>
+        </div>
+        <br />
+        <div class="contact-socials">
+          <p>Socials</p>
+          <a href="#"
+            ><img src="wp-content/images/github.svg" alt="Github"
+          /></a>
+          <a href="#"
+            ><img src="wp-content/images/youtube.svg" alt="Youtube"
+          /></a>
+          <a href="#"
+            ><img src="wp-content/images/replit.svg" alt="Replit"
+          /></a>
+        </div>
+      </div>
+      <form class="contact-form">
+        <label>full name</label>
+        <input type="text" required />
+        <label>email</label>
+        <input type="email" required />
+        <label>subject</label>
+        <input type="text" />
+        <label>message</label>
+        <textarea id="contact-form-message" rows="3" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <footer>
+      <div class="footer-links-wrapper">
+        <div class="footer-links">
+          <p>Quick Links</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a target="_blank" href="https://www.patreon.com/axorax"
+                >Donate</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <p>Social Links</p>
+          <ul>
+            <li><a href="https://github.com/axorax">Github</a></li>
+            <li><a href="https://www.reddit.com/user/axorax">Reddit</a></li>
+            <li><a href="https://www.youtube.com/c/Axorax">YouTube</a></li>
+            <li><a href="https://discord.gg/wQS5DjRty5">Discord</a></li>
+          </ul>
+        </div>
+      </div>
+      <p><span class="current-year"></span> © Axorax</p>
+    </footer>
+  </body>
+</html>
