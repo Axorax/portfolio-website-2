@@ -4,6 +4,14 @@ A simple portfolio website I made in 1 hour for a contest with my friend. I also
 
 ### Preview Images
 
+![Website Preview Image Full](./preview-images/preview.png)
+
+<details>
+
+<summary>View screenshot of each section individually</summary>
+
+<br>
+
 ![Website Preview Image](./preview-images/preview-1.png)
 
 ![Website Preview Image](./preview-images/preview-2.png)
@@ -11,6 +19,9 @@ A simple portfolio website I made in 1 hour for a contest with my friend. I also
 ![Website Preview Image](./preview-images/preview-3.png)
 
 ![Website Preview Image](./preview-images/preview-4.png)
+</details>
+
+---
 
 Color Palette
 
