@@ -6,6 +6,8 @@ A simple portfolio website I made in 1 hour for a contest with my friend. I also
 
 ![Website Preview Image Full](./preview-images/preview.png)
 
+![Website 404 Page Preview Image](./preview-images/preview-5.png)
+
 <details>
 
 <summary>View screenshot of each section individually</summary>
